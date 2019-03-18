@@ -1,0 +1,18 @@
+{
+  "name": "formql.io",
+  "version": "1.0.0",
+  "description": "FormQL - the official website",
+  "scripts": {
+    "build": "rm -rf dist && parcel build index.html --public-url ./",
+    "start": "parcel index.html",
+    "start:watch": "parcel watch index.html"
+  },
+  "license": "MIT",
+  "author": "Juan Stoppa",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  },
+  "dependencies": {
+    "lib": "^3.0.2"
+  }
+}
