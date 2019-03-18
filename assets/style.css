@@ -27,8 +27,15 @@ a:active {
 }
 
 .logo-wrapper svg,
-.logo-wrapper img {
+.logo-wrapper img,
+.logo-wrapper-mobile svg,
+.logo-wrapper-mobile img {
     max-width: 70px;
+}
+
+.logo-wrapper-mobile,
+.nav-menu-mobile {
+    display: none;
 }
 
 .nav-wrapper a {
@@ -64,10 +71,6 @@ a:active {
     padding-top: 30px;
 }
 
-.top-wrapper-mobile {
-    padding-top: 30px;
-    display: none;
-}
 
 .m-l-30 {
     margin-left: 30px !important;
@@ -161,7 +164,7 @@ a:active {
 .btn-primary:hover {
     border: 2px solid #86CBD4;
     background: transparent;
-    color: #fff;
+    color: #86CBD4;
 }
 
 .btn-secondary {
@@ -231,11 +234,13 @@ a:active {
         margin-right: auto;
     }
 
-    .top-wrapper-mobile {
-        display: block !important
+    .logo-wrapper-mobile,
+    .nav-menu-mobile {
+        display: inline-block !important
     }
 
-    .top-wrapper {
+    .logo-wrapper,
+    .nav-menu {
         display: none !important;
     }
 
