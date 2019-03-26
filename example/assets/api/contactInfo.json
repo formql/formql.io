@@ -58,7 +58,8 @@
                     "padding": "0px",
                     "margin": "10px",
                     "border-bottom": "3px solid",
-                    "font-family": "Roboto,'Helvetica Neue',sans-serif"
+                    "font-family": "Roboto,'Helvetica Neue',sans-serif",
+                    "color": "#3f51b5"
                 }
             }, {
                 "schema": "contact.firstName",
@@ -332,7 +333,8 @@
                     "padding": "0px",
                     "margin": "10px",
                     "border-bottom": "3px solid",
-                    "font-family": "Roboto,'Helvetica Neue',sans-serif"
+                    "font-family": "Roboto,'Helvetica Neue',sans-serif",
+                    "color": "#3f51b5"
                 }
             }, {
                 "schema": "contact.addressLine1",
