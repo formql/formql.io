@@ -138,7 +138,7 @@
                 "rules": {
                     "hidden": {
                         "key": "hidden",
-                        "condition": "typeof contact !== 'object' || (contact && contact.addComments !== true)",
+                        "condition": "contact.addComments !== true",
                         "value": null
                     }
                 },
