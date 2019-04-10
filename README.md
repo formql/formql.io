@@ -1,6 +1,6 @@
 ## Description
 
-Repo for FormQL [formql.io](https://formqli.io) source code
+Repo for FormQL [formql.io](https://formql.io) website
 
 ## Developing
 
